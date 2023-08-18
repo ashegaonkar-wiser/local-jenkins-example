@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'cat "Hello Jenkins!"'
+                sh 'echo "Hello Jenkins!"'
                 sh 'ls -alh'
                 sh 'python --version'
             }
